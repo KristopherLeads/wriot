@@ -12,6 +12,7 @@ In this piece, we’ll take a look at API metrics to demonstrate how they can be
 
 What Is Metric Analysis?
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![success-failure-importance-of-API-metric-analysis](https://nordicapis.com/wp-content/uploads/success-failure-importance-of-API-metric-analysis-300x300.jpg)
 
 According to the Oxford Dictionary, metrics are [“method\[s\] of measuring something, or the results obtained from this”](https://www.oxforddictionaries.com/us/definition/american_english/metrics). Metrics are the way we measure the values of a targeted part of a system, measuring an event from inception to completion, including the effects caused by its implementation.
@@ -47,7 +48,9 @@ These metrics are derived through the use of processes and applications that ori
 Example — The Tokyo Traffic Problem
 -----------------------------------
 
-![tokyo-japan-downtown-API-metric-analysis-example](https://nordicapis.com/wp-content/uploads/tokyo-japan-downtown-API-metric-analysis-example-300x200.jpg)A way to understand the importance of metric analysis is to show a situation in which it is applied properly against a situation where it is not, comparing the results of both approaches. Let’s imagine that we are engineers for the roadways of Tokyo, Japan, one of the largest cities in the world. We are tasked with solving a congestion problem in one of the most congested intersections in the entire city.
+![tokyo-japan-downtown-API-metric-analysis-example](https://nordicapis.com/wp-content/uploads/tokyo-japan-downtown-API-metric-analysis-example-300x200.jpg)
+
+A way to understand the importance of metric analysis is to show a situation in which it is applied properly against a situation where it is not, comparing the results of both approaches. Let’s imagine that we are engineers for the roadways of Tokyo, Japan, one of the largest cities in the world. We are tasked with solving a congestion problem in one of the most congested intersections in the entire city.
 
 Let’s first approach this problem without using metric analysis. We will use an **observational approach.** By standing on an overpass straddling the most congested area of the road, we mark down our observations in our notebook, noting both the number of cars and the number of lanes provided. Using these observations, a solution is designed to expand the roadway by an extra two lanes. The time budgeted for construction is set on a 24-hour schedule. You assume the congestion will ease due to your solution, and you step away. Some months later, the congestion you observed has only spilled into the new roadways, worsening the problem. The observational approach has resulted in more problems than it fixed, and is considered an abject failure.
 
