@@ -1,0 +1,39 @@
+# .github/workflows/deploy.yml
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Call Rootly Incident Prediction API
+        run: |
+          curl -X POST https://api.rootly.com/v1/predict \
+            -H "Authorization: Bearer ${{ secrets.ROOTLY_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "repo": "your-service",
+              "commit": "${{ github.sha }}",
+              "environment": "production"
+            }' > prediction.json
+
+      - name: Evaluate verdict from prediction
+        run: |
+          verdict=$(jq -r .verdict prediction.json)
+          reason=$(jq -r .reason prediction.json)
+
+          if [[ "$verdict" == "block" ]]; then
+            echo "Deployment blocked by Incident Prediction"
+            echo "Reason: $reason"
+            exit 1
+          fi
+
+      - name: Deploy service
+        run: ./scripts/deploy.sh
