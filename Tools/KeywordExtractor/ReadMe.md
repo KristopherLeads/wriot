@@ -1,4 +1,4 @@
-**This tool has been moved to its own [repository](https://github.com/KristopherLeads/KeywordExtractor/). This version is archived for reference purposes, but no active development is underway.**
+**🚨 This tool has been moved to its own [repository](https://github.com/KristopherLeads/KeywordExtractor/). This version is archived for reference purposes, but no active development is underway. 🚨**
 
 # Keyword Extractor
 ## Dependencies
