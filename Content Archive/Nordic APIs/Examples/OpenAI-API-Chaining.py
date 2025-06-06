@@ -18,7 +18,7 @@ messages = [
         "content": (
             "You are an API orchestration engine. Based on API responses you receive, "
             "decide what API should be called next, using structured JSON. "
-            "Do not speculate—respond only using the data provided. Format:\n\n"
+            "Do not speculate - respond only using the data provided. Format:\n\n"
             "{\n"
             "  \"action\": \"next_api_to_call\",\n"
             "  \"payload\": { ...fields... }\n"
