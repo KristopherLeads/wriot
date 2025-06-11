@@ -1,0 +1,820 @@
+command,category
+pvcreate,LVM
+pvs,LVM
+pvscan,LVM
+pvdisplay,LVM
+pvck,LVM
+pvchange,LVM
+pvremove,LVM
+pvresize,LVM
+pvmove,LVM
+vgcreate,LVM
+vgs,LVM
+vgscan,LVM
+vgdisplay,LVM
+vgck,LVM
+vgchange,LVM
+vgremove,LVM
+vgextend,LVM
+vgreduce,LVM
+vgmerge,LVM
+vgsplit,LVM
+vgimport,LVM
+vgexport,LVM
+lvcreate,LVM
+lvs,LVM
+lvscan,LVM
+lvdisplay,LVM
+lvchange,LVM
+lvremove,LVM
+lvextend,LVM
+lvreduce,LVM
+lvresize,LVM
+dmsetup,LVM
+lvm,LVM
+lvmsar,LVM
+lvmdiskscan,LVM
+lvmconfig,LVM
+mkinitrd,System Boot
+mkinitramfs,System Boot
+dracut,System Boot
+kexec,System Boot
+freeramdisk,System Boot
+service,Service Management
+update-rc.d,Service Management
+chkconfig,Service Management
+rcservice,Service Management
+systemctl,Service Management
+systemd-machine-id-setup,Service Management
+runlevel,Runlevel Control
+init,Runlevel Control
+telinit,Runlevel Control
+shutdown,Runlevel Control
+halt,Runlevel Control
+poweroff,Runlevel Control
+reboot,Runlevel Control
+who,Login/Session
+w,Login/Session
+last,Login/Session
+lastb,Login/Session
+fail2ban,Login/Session
+pam_tally2,Login/Session
+acct,Login/Session
+ac,Login/Session
+lastcomm,Login/Session
+sa,Login/Session
+fdisk,Partitioning
+parted,Partitioning
+sfdisk,Partitioning
+cfdisk,Partitioning
+gparted,Partitioning
+gnome-disks,Partitioning
+partprobe,Partitioning
+hdparm,Partitioning
+mkfs,Filesystem Creation
+mkfs.ext2,Filesystem Creation
+mke2fs,Filesystem Creation
+mkfs.ext3,Filesystem Creation
+mke3fs,Filesystem Creation
+mkfs.ext4,Filesystem Creation
+mkfs.msdos,Filesystem Creation
+mkdosfs,Filesystem Creation
+mkfs.ntfs,Filesystem Creation
+mkntfs,Filesystem Creation
+mkfs.reiserfs,Filesystem Creation
+mkreiserfs,Filesystem Creation
+mkfs.jfs,Filesystem Creation
+mkfs.xfs,Filesystem Creation
+mkfs.btrfs,Filesystem Creation
+mount,Mount Operations
+umount,Mount Operations
+eject,Mount Operations
+mountpoint,Mount Operations
+blkid,Mount Operations
+findfs,Mount Operations
+e2label,Mount Operations
+mkswap,Swap Management
+swapon,Swap Management
+swapoff,Swap Management
+df,Filesystem Operations
+du,Filesystem Operations
+ncdu,Filesystem Operations
+resize2fs,Filesystem Operations
+xfs_growfs,Filesystem Operations
+lsblk,Filesystem Operations
+lsscsi,Filesystem Operations
+sync,Filesystem Operations
+chroot,Filesystem Operations
+mknod,Filesystem Operations
+multipath,Filesystem Operations
+fsck,Filesystem Maintenance
+e2fsck,Filesystem Maintenance
+fsck.ext2,Filesystem Maintenance
+fsck.ext3,Filesystem Maintenance
+fsck.ext4,Filesystem Maintenance
+fsck.msdos,Filesystem Maintenance
+fsck.vfat,Filesystem Maintenance
+fsck.cramfs,Filesystem Maintenance
+tune2fs,Filesystem Maintenance
+dumpe2fs,Filesystem Maintenance
+debugfs,Filesystem Maintenance
+xfs_check,Filesystem Maintenance
+xfs_repair,Filesystem Maintenance
+xfs_info,Filesystem Maintenance
+xfsdump,Filesystem Maintenance
+xfsrestore,Filesystem Maintenance
+debugreiserfs,Filesystem Maintenance
+reiserfstune,Filesystem Maintenance
+smartctl,Filesystem Maintenance
+smartd,Filesystem Maintenance
+mkisofs,CD/DVD Filesystem
+mkudffs,CD/DVD Filesystem
+udffsck,CD/DVD Filesystem
+wrudf,CD/DVD Filesystem
+cdrwtool,CD/DVD Filesystem
+mdadm,RAID
+dd,Backup
+ddrescue,Backup
+rsync,Backup
+burp,Backup
+mt,Backup
+mtx,Backup
+cpio,Archive
+gzip,Archive
+gunzip,Archive
+pigz,Archive
+bzip2,Archive
+bunzip2,Archive
+xz,Archive
+unxz,Archive
+lzma,Archive
+unlzma,Archive
+7z,Archive
+rar,Archive
+unrar,Archive
+tar,Archive
+star,Archive
+zcat,Archive
+bzcat,Archive
+xzcat,Archive
+lzcat,Archive
+zgrep,Archive
+zless,Archive
+zmore,Archive
+man,Documentation
+mandb,Documentation
+apropos,Documentation
+whatis,Documentation
+info,Documentation
+help,Documentation
+history,Shell
+alias,Shell
+unalias,Shell
+whoami,Shell
+id,Shell
+su,Shell
+sudo,Shell
+runuser,Shell
+cat,Text Processing
+tac,Text Processing
+rev,Text Processing
+head,Text Processing
+tail,Text Processing
+more,Text Processing
+less,Text Processing
+most,Text Processing
+nl,Text Processing
+wc,Text Processing
+column,Text Processing
+pr,Text Processing
+fmt,Text Processing
+fold,Text Processing
+join,Text Processing
+paste,Text Processing
+split,Text Processing
+uniq,Text Processing
+sort,Text Processing
+shuf,Text Processing
+expand,Text Processing
+unexpand,Text Processing
+diff,Text Processing
+cmp,Text Processing
+cut,Text Processing
+sed,Text Processing
+tr,Text Processing
+awk,Text Processing
+grep,Text Processing
+egrep,Text Processing
+rpl,Text Processing
+strings,Text Processing
+tidy,Text Processing
+json_verify,Text Processing
+json_reformat,Text Processing
+antiword,Text Processing
+catdoc,Text Processing
+vi,Text Editors
+vim,Text Editors
+gvim,Text Editors
+vimdiff,Text Editors
+pico,Text Editors
+nano,Text Editors
+rnano,Text Editors
+emacs,Text Editors
+gedit,Text Editors
+ed,Text Editors
+hexedit,Text Editors
+cp,File Management
+mv,File Management
+rm,File Management
+touch,File Management
+truncate,File Management
+mktemp,File Management
+fdupes,File Management
+tmpwatch,File Management
+od,File Management
+hexdump,File Management
+xxd,File Management
+rename,File Management
+unlink,File Management
+pv,File Management
+cd,Directory Management
+pwd,Directory Management
+ls,Directory Management
+dir,Directory Management
+vdir,Directory Management
+mkdir,Directory Management
+rmdir,Directory Management
+tree,Directory Management
+dirs,Directory Management
+pushd,Directory Management
+popd,Directory Management
+dirname,Directory Management
+realpath,Directory Management
+stat,File Operations
+shred,File Operations
+lsof,File Operations
+fuser,File Operations
+lslocks,File Operations
+aide,File Operations
+tee,I/O Redirection
+sponge,I/O Redirection
+ps,Process Management
+pstree,Process Management
+pidof,Process Management
+pgrep,Process Management
+pmap,Process Management
+kill,Process Management
+killall,Process Management
+pkill,Process Management
+skill,Process Management
+xkill,Process Management
+jobs,Process Management
+bg,Process Management
+fg,Process Management
+disown,Process Management
+nice,Process Management
+renice,Process Management
+snice,Process Management
+nohup,Process Management
+strace,Process Management
+ipcs,Process Management
+top,Resource Monitoring
+htop,Resource Monitoring
+iotop,Resource Monitoring
+atop,Resource Monitoring
+powertop,Resource Monitoring
+uptime,Resource Monitoring
+time,Resource Monitoring
+sar,Resource Monitoring
+sysbench,Resource Monitoring
+inxi,Resource Monitoring
+stress-ng,Resource Monitoring
+vmstat,Resource Monitoring
+iostat,Resource Monitoring
+mpstat,Resource Monitoring
+free,Resource Monitoring
+chmod,File Permissions
+chown,File Permissions
+chgrp,File Permissions
+umask,File Permissions
+chattr,File Permissions
+lsattr,File Permissions
+setfacl,File Permissions
+getfacl,File Permissions
+chacl,File Permissions
+ln,Links
+find,File Search
+locate,File Search
+slocate,File Search
+updatedb,File Search
+which,File Search
+whereis,File Search
+type,File Search
+file,File Search
+set,Shell Variables
+env,Shell Variables
+export,Shell Variables
+unset,Shell Variables
+readonly,Shell Variables
+echo,Shell Variables
+printf,Shell Variables
+read,Shell Variables
+getopts,Shell Variables
+shopt,Shell Control
+exit,Shell Control
+source,Shell Control
+.,Shell Control
+bash,Shell Control
+expect,Shell Control
+zenity,Shell Control
+watch,Command Execution
+timeout,Command Execution
+sleep,Command Execution
+usleep,Command Execution
+yes,Command Execution
+script,Command Execution
+xargs,Command Execution
+parallel,Command Execution
+ts,Command Execution
+test,Flow Control
+[,Flow Control
+expr,Flow Control
+true,Flow Control
+false,Flow Control
+if,Flow Control
+then,Flow Control
+else,Flow Control
+elif,Flow Control
+fi,Flow Control
+case,Flow Control
+esac,Flow Control
+for,Flow Control
+do,Flow Control
+done,Flow Control
+while,Flow Control
+until,Flow Control
+break,Flow Control
+continue,Flow Control
+mysql,SQL
+mysqldump,SQL
+mysql_upgrade,SQL
+mysqlcheck,SQL
+mysqladmin,SQL
+mysqlslap,SQL
+mysqltuner.pl,SQL
+mysqlreport,SQL
+mytop,SQL
+innotop,SQL
+psql,SQL
+createdb,SQL
+dropdb,SQL
+pg_dump,SQL
+postgresql-setup,SQL
+startx,X Window
+xdm,X Window
+gdm,X Window
+kdm,X Window
+xorgconfig,X Window
+xorgcfg,X Window
+xdpyinfo,X Window
+xwininfo,X Window
+xhost,X Window
+switchdesk,X Window
+xdotool,X Window
+xprop,X Window
+xrandr,X Window
+xsel,X Window
+xclip,X Window
+mkfontdir,X Window
+xset,X Window
+xfs,X Window
+fc-cache,X Window
+useradd,User Management
+usermod,User Management
+userdel,User Management
+chfn,User Management
+chsh,User Management
+passwd,User Management
+chage,User Management
+chpasswd,User Management
+vipw,User Management
+vigr,User Management
+adduser,User Management
+deluser,User Management
+system-config-users,User Management
+groupadd,Group Management
+groupmod,Group Management
+groupdel,Group Management
+gpasswd,Group Management
+addgroup,Group Management
+delgroup,Group Management
+chvt,Terminal
+vlock,Terminal
+away,Terminal
+tty,Terminal
+stty,Terminal
+clear,Terminal
+tmux,Terminal
+screen,Terminal
+reptyr,Terminal
+reset,Terminal
+write,Messaging
+wall,Messaging
+talk,Messaging
+mesg,Messaging
+cron,Scheduling
+crond,Scheduling
+crontab,Scheduling
+anacron,Scheduling
+at,Scheduling
+atq,Scheduling
+atrm,Scheduling
+batch,Scheduling
+bc,Utilities
+dc,Utilities
+factor,Utilities
+units,Utilities
+cal,Utilities
+banner,Utilities
+figlet,Utilities
+toilet,Utilities
+lolcat,Utilities
+fortune,Utilities
+sensors,Utilities
+beep,Utilities
+speaker-test,Utilities
+on_ac_power,Utilities
+ipcalc,Utilities
+pwgen,Utilities
+pwqgen,Utilities
+uuidgen,Utilities
+haveged,Utilities
+aspell,Utilities
+cloc,Utilities
+gnome-terminal,Utilities
+conky,Utilities
+gkrellm,Utilities
+locale,Localization
+locale-gen,Localization
+iconv,Localization
+tzselect,Localization
+tzconfig,Localization
+timedatectl,Localization
+date,Time
+zdump,Time
+ntpd,Time
+ntpq,Time
+ntpdate,Time
+chronyd,Time
+chronyc,Time
+hwclock,Time
+logger,System Logging
+logrotate,System Logging
+dmesg,System Logging
+journalctl,System Logging
+mail,Email
+mailx,Email
+pine,Email
+alpine,Email
+mutt,Email
+sendmail,Email
+postfix,Email
+postmap,Email
+postalias,Email
+postqueue,Email
+postsuper,Email
+exim4,Email
+procmail,Email
+formail,Email
+ip,Network Configuration
+ifconfig,Network Configuration
+ifup,Network Configuration
+ifdown,Network Configuration
+dhclient,Network Configuration
+pump,Network Configuration
+dhcpcd,Network Configuration
+hostname,Network Configuration
+hostnamectl,Network Configuration
+arp,Network Configuration
+ethtool,Network Configuration
+nmcli,Network Configuration
+nmtui,Network Configuration
+route,Network Configuration
+brctl,Network Configuration
+teamdctl,Network Configuration
+teamnl,Network Configuration
+ping,Network Tools
+fping,Network Tools
+traceroute,Network Tools
+tracepath,Network Tools
+mtr,Network Tools
+dig,Network Tools
+host,Network Tools
+nslookup,Network Tools
+whois,Network Tools
+redir,Network Tools
+telnet,Network Tools
+wget,Network Tools
+curl,Network Tools
+hping3,Network Tools
+bing,Network Tools
+netstat,Network Monitoring
+ss,Network Monitoring
+nmap,Network Monitoring
+arp-scan,Network Monitoring
+tcpdump,Network Monitoring
+wireshark,Network Monitoring
+tshark,Network Monitoring
+ngrep,Network Monitoring
+dhcpdump,Network Monitoring
+nload,Network Monitoring
+iptraf,Network Monitoring
+iptraf-ng,Network Monitoring
+netserver,Network Monitoring
+netperf,Network Monitoring
+iperf,Network Monitoring
+netcat,Network Monitoring
+nc,Network Monitoring
+ncat,Network Monitoring
+iwlist,Wireless
+iwconfig,Wireless
+iwgetid,Wireless
+iw,Wireless
+rfkill,Wireless
+hcidump,Wireless
+iptables,Firewall
+ip6tables,Firewall
+iptables-save,Firewall
+iptables-restore,Firewall
+firewall-cmd,Firewall
+firewall-config,Firewall
+firewall-offline-cmd,Firewall
+ufw,Firewall
+ssh,SSH
+autossh,SSH
+sshpass,SSH
+pssh,SSH
+ssh-keygen,SSH
+ssh-keyscan,SSH
+ssh-agent,SSH
+ssh-add,SSH
+ssh-copy-id,SSH
+scp,SSH
+sftp,SSH
+sshd,SSH
+scponly,SSH
+openssl,Security
+CA.pl,Security
+gpg,Security
+openvpn,Security
+stunnel,Security
+md5sum,Security
+sha1sum,Security
+sha256sum,Security
+sha512sum,Security
+shasum,Security
+setenforce,SELinux
+getenforce,SELinux
+sestatus,SELinux
+chcon,SELinux
+restorecon,SELinux
+getsebool,SELinux
+setsebool,SELinux
+semanage,SELinux
+sealert,SELinux
+audit2why,SELinux
+audit2allow,SELinux
+ausearch,SELinux
+semodule,SELinux
+udevadm,Device Management
+udevmonitor,Device Management
+lspci,Device Management
+lsusb,Device Management
+lsdev,Device Management
+lshw,Device Management
+lscpu,Device Management
+evtest,Device Management
+gnome-device-manager,Device Management
+uname,Kernel
+lsmod,Kernel
+insmod,Kernel
+rmmod,Kernel
+modinfo,Kernel
+depmod,Kernel
+modprobe,Kernel
+dmesg,Kernel
+kexec,Kernel
+sysctl,Kernel
+ldconfig,Libraries
+ldd,Libraries
+ld.so,Libraries
+dpkg,Package Management - Debian
+dpkg-reconfigure,Package Management - Debian
+apt,Package Management - Debian
+apt-get,Package Management - Debian
+apt-cache,Package Management - Debian
+apt-file,Package Management - Debian
+apt-key,Package Management - Debian
+apt-cdrom,Package Management - Debian
+alien,Package Management - Debian
+dselect,Package Management - Debian
+aptitude,Package Management - Debian
+synaptic,Package Management - Debian
+rpm,Package Management - Red Hat
+rpm2cpio,Package Management - Red Hat
+yum,Package Management - Red Hat
+yumdownloader,Package Management - Red Hat
+yum-complete-transaction,Package Management - Red Hat
+repoquery,Package Management - Red Hat
+createrepo,Package Management - Red Hat
+dnf,Package Management - Red Hat
+pirut,Package Management - Red Hat
+httpd,Web Servers
+apache2,Web Servers
+apachectl,Web Servers
+apache2ctl,Web Servers
+htpasswd,Web Servers
+htdigest,Web Servers
+a2ensite,Web Servers
+a2dissite,Web Servers
+a2enmod,Web Servers
+a2dismod,Web Servers
+named,DNS
+ndc,DNS
+rndc,DNS
+dnssec-keygen,DNS
+dnssec-signzone,DNS
+rndc-confgen,DNS
+dnswalk,DNS
+sendmail,Email Servers
+makemap,Email Servers
+newaliases,Email Servers
+mailq,Email Servers
+hoststat,Email Servers
+purgestat,Email Servers
+mailstats,Email Servers
+praliases,Email Servers
+postfix,Email Servers
+postconf,Email Servers
+postmap,Email Servers
+postalias,Email Servers
+postqueue,Email Servers
+postsuper,Email Servers
+exim,Email Servers
+mysqld,Database Servers
+mysqld_safe,Database Servers
+mysql_install_db,Database Servers
+mysql_secure_installation,Database Servers
+postgres,Database Servers
+pg_ctl,Database Servers
+smbd,File Sharing
+nmbd,File Sharing
+testparm,File Sharing
+smbpasswd,File Sharing
+nmblookup,File Sharing
+net,File Sharing
+smbstatus,File Sharing
+smbclient,File Sharing
+mount.cifs,File Sharing
+smbmount,File Sharing
+nfsd,File Sharing
+mountd,File Sharing
+exportfs,File Sharing
+showmount,File Sharing
+rpcinfo,File Sharing
+vsftpd,FTP Servers
+pure-ftpd,FTP Servers
+pure-ftpwho,FTP Servers
+ftp,FTP Servers
+lftp,FTP Servers
+cupsd,Print Servers
+cupsctl,Print Servers
+cupsenable,Print Servers
+cupsdisable,Print Servers
+cupsaccept,Print Servers
+cupsreject,Print Servers
+lpadmin,Print Servers
+lpstat,Print Servers
+lp,Print Servers
+lpr,Print Servers
+lpq,Print Servers
+lprm,Print Servers
+lpc,Print Servers
+a2ps,Print Servers
+ps2pdf,Print Servers
+mpage,Print Servers
+gv,Print Servers
+dhcpd,DHCP
+dhcrelay,DHCP
+slapd,Directory Services
+slapcat,Directory Services
+slapadd,Directory Services
+slapindex,Directory Services
+slaptest,Directory Services
+ldapsearch,Directory Services
+ldapmodify,Directory Services
+ldapadd,Directory Services
+ldapdelete,Directory Services
+ldappasswd,Directory Services
+sssd,Directory Services
+authconfig,Directory Services
+authselect,Directory Services
+iscsid,Storage
+targetcli,Storage
+iscsiadm,Storage
+libvirtd,Virtualization
+virsh,Virtualization
+virt-manager,Virtualization
+virt-install,Virtualization
+virt-clone,Virtualization
+virt-what,Virtualization
+qemu,Virtualization
+kvm,Virtualization
+tomcat,Web Application Servers
+java,Web Application Servers
+nagios,Monitoring
+zabbix,Monitoring
+collectd,Monitoring
+mrtg,Monitoring
+cacti,Monitoring
+munin,Monitoring
+centreon,Monitoring
+netdata,Monitoring
+git,Development
+svn,Development
+make,Development
+gcc,Development
+g++,Development
+gdb,Development
+strace,Development
+ltrace,Development
+valgrind,Development
+puppet,Configuration Management
+facter,Configuration Management
+ansible,Configuration Management
+ansible-playbook,Configuration Management
+chef,Configuration Management
+knife,Configuration Management
+vagrant,Configuration Management
+docker,Configuration Management
+systemd-nspawn,Configuration Management
+fsck,System Recovery
+grub-install,System Recovery
+grub-mkconfig,System Recovery
+update-grub,System Recovery
+grub,System Recovery
+grub2-set-default,System Recovery
+grub2-editenv,System Recovery
+initramfs,System Recovery
+dracut,System Recovery
+chroot,System Recovery
+mount,System Recovery
+sync,System Recovery
+hdparm,Hardware Control
+sdparm,Hardware Control
+smartctl,Hardware Control
+sensors,Hardware Control
+fancontrol,Hardware Control
+hddtemp,Hardware Control
+alsamixer,Audio/Video
+amixer,Audio/Video
+aplay,Audio/Video
+arecord,Audio/Video
+pulseaudio,Audio/Video
+pactl,Audio/Video
+pacmd,Audio/Video
+sox,Audio/Video
+play,Audio/Video
+rec,Audio/Video
+dmidecode,System Information
+biosdecode,System Information
+vpddecode,System Information
+lshw,System Information
+hwinfo,System Information
+inxi,System Information
+tuned,Performance Tuning
+tuned-adm,Performance Tuning
+cpupower,Performance Tuning
+powertop,Performance Tuning
+irqbalance,Performance Tuning
+gdb,Debugging
+strace,Debugging
+ltrace,Debugging
+nm,Debugging
+objdump,Debugging
+readelf,Debugging
+strings,Debugging
+expect,Automation
+autoexpect,Automation
+screen,Automation
+tmux,Automation
+byobu,Automation
+dbus-monitor,Miscellaneous
+inotify-tools,Miscellaneous
+logwatch,Miscellaneous
+fail2ban-client,Miscellaneous
+aide,Miscellaneous
+rkhunter,Miscellaneous
+chkrootkit,Miscellaneous
+lynis,Miscellaneous
+oscap,Miscellaneous
