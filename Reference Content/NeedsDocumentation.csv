@@ -91,12 +91,6 @@ man,Documentation
 apropos,Documentation
 info,Documentation
 help,Documentation
-history,Shell
-alias,Shell
-unalias,Shell
-whoami,Shell
-id,Shell
-sudo,Shell
 tac,Text Processing
 tail,Text Processing
 less,Text Processing
