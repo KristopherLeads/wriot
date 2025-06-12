@@ -485,44 +485,38 @@ svn,Development
 make,Development
 gcc,Development
 g++,Development
-gdb,Development
-valgrind,Development
-puppet,Configuration Management
+
+
+
 facter,Configuration Management
-ansible,Configuration Management
-ansible-playbook,Configuration Management
+
+
 chef,Configuration Management
-knife,Configuration Management
-vagrant,Configuration Management
-docker,Configuration Management
+
+
+
 update-grub,System Recovery
 grub,System Recovery
 grub2-set-default,System Recovery
 grub2-editenv,System Recovery
 initramfs,System Recovery
-chroot,System Recovery
-sync,System Recovery
+
+
 sdparm,Hardware Control
-smartctl,Hardware Control
+
 fancontrol,Hardware Control
 hddtemp,Hardware Control
-pactl,Audio/Video
+
 pacmd,Audio/Video
-sox,Audio/Video
-play,Audio/Video
+
+
+
 rec,Audio/Video
 biosdecode,System Information
 vpddecode,System Information
 tuned,Performance Tuning
 irqbalance,Performance Tuning
-gdb,Debugging
-nm,Debugging
-objdump,Debugging
-strings,Debugging
 autoexpect,Automation
-screen,Automation
-tmux,Automation
-byobu,Automation
 dbus-monitor,Miscellaneous
 inotify-tools,Miscellaneous
 aide,Miscellaneous
