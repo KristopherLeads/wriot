@@ -461,18 +461,12 @@ ldapdelete,Directory Services
 ldappasswd,Directory Services
 sssd,Directory Services
 authselect,Directory Services
-iscsid,Storage
 targetcli,Storage
 iscsiadm,Storage
 libvirtd,Virtualization
-virsh,Virtualization
-virt-install,Virtualization
-virt-clone,Virtualization
 virt-what,Virtualization
-qemu,Virtualization
 kvm,Virtualization
 tomcat,Web Application Servers
-java,Web Application Servers
 nagios,Monitoring
 zabbix,Monitoring
 mrtg,Monitoring
@@ -480,37 +474,16 @@ cacti,Monitoring
 munin,Monitoring
 centreon,Monitoring
 netdata,Monitoring
-git,Development
-svn,Development
-make,Development
-gcc,Development
-g++,Development
-
-
-
 facter,Configuration Management
-
-
 chef,Configuration Management
-
-
-
 update-grub,System Recovery
 grub,System Recovery
 grub2-set-default,System Recovery
 grub2-editenv,System Recovery
 initramfs,System Recovery
-
-
 sdparm,Hardware Control
-
-fancontrol,Hardware Control
 hddtemp,Hardware Control
-
 pacmd,Audio/Video
-
-
-
 rec,Audio/Video
 biosdecode,System Information
 vpddecode,System Information
@@ -522,3 +495,9 @@ inotify-tools,Miscellaneous
 aide,Miscellaneous
 chkrootkit,Miscellaneous
 oscap,Miscellaneous
+
+
+
+
+
+fancontrol,Hardware Control
