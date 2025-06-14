@@ -1,237 +1,238 @@
-a2ps
-acct
-addgroup
-aide
-aide
-anacron
-antiword
-apache2
-apt-cdrom
-audit2why
-ausearch
-authselect
-autoexpect
-away
-bing
-biosdecode
-bunzip2
-burp
-bzcat
-CA.pl
-cacti
-catdoc
-cdrwtool
-centreon
-chacl
-chef
-chkrootkit
-chronyd
-chvt
-crond
-dbus-monitor
-debugreiserfs
-delgroup
-depmod
-dhcpd
-dhcpdump
-dhcrelay
-dmsetup
-dnssec-keygen
-dnssec-signzone
-dnswalk
-dropdb
-dselect
-exim
-exim4
-exportfs
-facter
-fail2ban
-fancontrol
-firewall-config
-firewall-offline-cmd
-formail
-freeramdisk
-fsck.cramfs
-fsck.ext2
-fsck.ext3
-fsck.ext4
-fsck.msdos
-fsck.vfat
-gdm
-gkrellm
-gnome-device-manager
-gnome-disks
-gparted
-grub
-grub2-editenv
-grub2-set-default
-gv
-gvim
-haveged
-hcidump
-hddtemp
-hexedit
-hoststat
-htdigest
-httpd
-initramfs
-innotop
-inotify-tools
-iptraf
-iptraf-ng
-irqbalance
-iscsiadm
-iscsid
-iwgetid
-json_reformat
-json_verify
-kdm
-kvm
-ld.so
-ldapadd
-ldapdelete
-ldapmodify
-ldappasswd
-libvirtd
-lpc
-lsdev
-lvchange
-lvmconfig
-lvmdiskscan
-lvmsar
-lvscan
-mailq
-mailstats
-makemap
-mkdosfs
-mke3fs
-mkfontdir
-mkfs.ext2
-mkfs.ext3
-mkfs.jfs
-mkfs.msdos
-mkfs.reiserfs
-mkinitramfs
-mkinitrd
-mkntfs
-mkreiserfs
-mkudffs
-mountd
-mpage
-mrtg
-mtx
-multipath
-munin
-mysql_install_db
-mysql_upgrade
-mysqladmin
-mysqld_safe
-mysqlreport
-mysqlslap
-mysqltuner.pl
-nagios
-ndc
-netdata
-newaliases
-nfsd
-nmbd
-on_ac_power
-oscap
-pacmd
-pam_tally2
-pico
-pine
-pirut
-postalias
-postalias
-postgres
-postgresql-setup
-postmap
-postmap
-postqueue
-postqueue
-postsuper
-postsuper
-praliases
-procmail
-ps2pdf
-pump
-pure-ftpd
-pure-ftpwho
-purgestat
-pvchange
-pvck
-pvmove
-pvresize
-pwqgen
-rcservice
-rec
-redir
-reiserfstune
-repoquery
-rnano
-rndc
-rndc-confgen
-rpl
-runlevel
-scponly
-sdparm
-sealert
-semodule
-skill
-slapadd
-slapcat
-slapd
-slapindex
-slaptest
-slocate
-smartd
-smbd
-smbmount
-smbstatus
-snice
-sssd
-star
-stress-ng
-stunnel
-switchdesk
-synaptic
-system-config-users
-targetcli
-teamdctl
-teamnl
-testparm
-tmpwatch
-tomcat
-tuned
-tzconfig
-udevmonitor
-udffsck
-update-grub
-usleep
-vgck
-vgexport
-vgextend
-vgimport
-vgmerge
-vgreduce
-vgsplit
-virt-what
-vlock
-vpddecode
-vsftpd
-wireshark
-wrudf
-xdm
-xdpyinfo
-xfs
-xfs_check
-xfs_growfs
-xfs_info
-xfsdump
-xfsrestore
-xorgcfg
-xorgconfig
-yum-complete-transaction
-yumdownloader
-zabbix
+command,category
+a2ps,Print Servers
+acct,Login/Session
+addgroup,Group Management
+aide,File Operations
+aide,Miscellaneous
+anacron,Scheduling
+antiword,Text Processing
+apache2,Web Servers
+apt-cdrom,Package Management - Debian
+audit2why,SELinux
+ausearch,SELinux
+authselect,Directory Services
+autoexpect,Automation
+away,Terminal
+bing,Network Tools
+biosdecode,System Information
+bunzip2,Archive
+burp,Backup
+bzcat,Archive
+CA.pl,Security
+cacti,Monitoring
+catdoc,Text Processing
+cdrwtool,CD/DVD Filesystem
+centreon,Monitoring
+chacl,File Permissions
+chef,Configuration Management
+chkrootkit,Miscellaneous
+chronyd,Time
+chvt,Terminal
+crond,Scheduling
+dbus-monitor,Miscellaneous
+debugreiserfs,Filesystem Maintenance
+delgroup,Group Management
+depmod,Kernel
+dhcpd,DHCP
+dhcpdump,Network Monitoring
+dhcrelay,DHCP
+dmsetup,LVM
+dnssec-keygen,DNS
+dnssec-signzone,DNS
+dnswalk,DNS
+dropdb,SQL
+dselect,Package Management - Debian
+exim,Email Servers
+exim4,Email
+exportfs,File Sharing
+facter,Configuration Management
+fail2ban,Login/Session
+fancontrol,Hardware Control
+firewall-config,Firewall
+firewall-offline-cmd,Firewall
+formail,Email
+freeramdisk,System Boot
+fsck.cramfs,Filesystem Maintenance
+fsck.ext2,Filesystem Maintenance
+fsck.ext3,Filesystem Maintenance
+fsck.ext4,Filesystem Maintenance
+fsck.msdos,Filesystem Maintenance
+fsck.vfat,Filesystem Maintenance
+gdm,X Window
+gkrellm,Utilities
+gnome-device-manager,Device Management
+gnome-disks,Partitioning
+gparted,Partitioning
+grub,System Recovery
+grub2-editenv,System Recovery
+grub2-set-default,System Recovery
+gv,Print Servers
+gvim,Text Editors
+haveged,Utilities
+hcidump,Wireless
+hddtemp,Hardware Control
+hexedit,Text Editors
+hoststat,Email Servers
+htdigest,Web Servers
+httpd,Web Servers
+initramfs,System Recovery
+innotop,SQL
+inotify-tools,Miscellaneous
+iptraf,Network Monitoring
+iptraf-ng,Network Monitoring
+irqbalance,Performance Tuning
+iscsiadm,Storage
+iscsid,Storage
+iwgetid,Wireless
+json_reformat,Text Processing
+json_verify,Text Processing
+kdm,X Window
+kvm,Virtualization
+ld.so,Libraries
+ldapadd,Directory Services
+ldapdelete,Directory Services
+ldapmodify,Directory Services
+ldappasswd,Directory Services
+libvirtd,Virtualization
+lpc,Print Servers
+lsdev,Device Management
+lvchange,LVM
+lvmconfig,LVM
+lvmdiskscan,LVM
+lvmsar,LVM
+lvscan,LVM
+mailq,Email Servers
+mailstats,Email Servers
+makemap,Email Servers
+mkdosfs,Filesystem Creation
+mke3fs,Filesystem Creation
+mkfontdir,X Window
+mkfs.ext2,Filesystem Creation
+mkfs.ext3,Filesystem Creation
+mkfs.jfs,Filesystem Creation
+mkfs.msdos,Filesystem Creation
+mkfs.reiserfs,Filesystem Creation
+mkinitramfs,System Boot
+mkinitrd,System Boot
+mkntfs,Filesystem Creation
+mkreiserfs,Filesystem Creation
+mkudffs,CD/DVD Filesystem
+mountd,File Sharing
+mpage,Print Servers
+mrtg,Monitoring
+mtx,Backup
+multipath,Filesystem Operations
+munin,Monitoring
+mysql_install_db,Database Servers
+mysql_upgrade,SQL
+mysqladmin,SQL
+mysqld_safe,Database Servers
+mysqlreport,SQL
+mysqlslap,SQL
+mysqltuner.pl,SQL
+nagios,Monitoring
+ndc,DNS
+netdata,Monitoring
+newaliases,Email Servers
+nfsd,File Sharing
+nmbd,File Sharing
+on_ac_power,Utilities
+oscap,Miscellaneous
+pacmd,Audio/Video
+pam_tally2,Login/Session
+pico,Text Editors
+pine,Email
+pirut,Package Management - Red Hat
+postalias,Email
+postalias,Email Servers
+postgres,Database Servers
+postgresql-setup,SQL
+postmap,Email
+postmap,Email Servers
+postqueue,Email
+postqueue,Email Servers
+postsuper,Email
+postsuper,Email Servers
+praliases,Email Servers
+procmail,Email
+ps2pdf,Print Servers
+pump,Network Configuration
+pure-ftpd,FTP Servers
+pure-ftpwho,FTP Servers
+purgestat,Email Servers
+pvchange,LVM
+pvck,LVM
+pvmove,LVM
+pvresize,LVM
+pwqgen,Utilities
+rcservice,Service Management
+rec,Audio/Video
+redir,Network Tools
+reiserfstune,Filesystem Maintenance
+repoquery,Package Management - Red Hat
+rnano,Text Editors
+rndc,DNS
+rndc-confgen,DNS
+rpl,Text Processing
+runlevel,Runlevel Control
+scponly,SSH
+sdparm,Hardware Control
+sealert,SELinux
+semodule,SELinux
+skill,Process Management
+slapadd,Directory Services
+slapcat,Directory Services
+slapd,Directory Services
+slapindex,Directory Services
+slaptest,Directory Services
+slocate,File Search
+smartd,Filesystem Maintenance
+smbd,File Sharing
+smbmount,File Sharing
+smbstatus,File Sharing
+snice,Process Management
+sssd,Directory Services
+star,Archive
+stress-ng,Resource Monitoring
+stunnel,Security
+switchdesk,X Window
+synaptic,Package Management - Debian
+system-config-users,User Management
+targetcli,Storage
+teamdctl,Network Configuration
+teamnl,Network Configuration
+testparm,File Sharing
+tmpwatch,File Management
+tomcat,Web Application Servers
+tuned,Performance Tuning
+tzconfig,Localization
+udevmonitor,Device Management
+udffsck,CD/DVD Filesystem
+update-grub,System Recovery
+usleep,Command Execution
+vgck,LVM
+vgexport,LVM
+vgextend,LVM
+vgimport,LVM
+vgmerge,LVM
+vgreduce,LVM
+vgsplit,LVM
+virt-what,Virtualization
+vlock,Terminal
+vpddecode,System Information
+vsftpd,FTP Servers
+wireshark,Network Monitoring
+wrudf,CD/DVD Filesystem
+xdm,X Window
+xdpyinfo,X Window
+xfs,X Window
+xfs_check,Filesystem Maintenance
+xfs_growfs,Filesystem Operations
+xfs_info,Filesystem Maintenance
+xfsdump,Filesystem Maintenance
+xfsrestore,Filesystem Maintenance
+xorgcfg,X Window
+xorgconfig,X Window
+yum-complete-transaction,Package Management - Red Hat
+yumdownloader,Package Management - Red Hat
+zabbix,Monitoring
