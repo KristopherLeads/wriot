@@ -1,4 +1,4 @@
-command,category
+command,category,pullrequest
 a2ps,Print Servers
 acct,Login/Session
 addgroup,Group Management
@@ -40,7 +40,7 @@ dmsetup,LVM
 dnssec-keygen,DNS
 dnssec-signzone,DNS
 dnswalk,DNS
-dropdb,SQL
+dropdb,SQL,https://github.com/tldr-pages/tldr/pull/16862
 dselect,Package Management - Debian
 exim,Email Servers
 exim4,Email
