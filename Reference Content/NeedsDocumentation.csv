@@ -1,503 +1,239 @@
-command,category
-pvck,LVM
-pvchange,LVM
-pvresize,LVM
-pvmove,LVM
-vgck,LVM
-vgextend,LVM
-vgreduce,LVM
-vgmerge,LVM
-vgsplit,LVM
-vgimport,LVM
-vgexport,LVM
-lvscan,LVM
-lvchange,LVM
-dmsetup,LVM
-lvmsar,LVM
-lvmdiskscan,LVM
-lvmconfig,LVM
-mkinitrd,System Boot
-mkinitramfs,System Boot
-freeramdisk,System Boot
-rcservice,Service Management
-runlevel,Runlevel Control
-who,Login/Session
-w,Login/Session
-fail2ban,Login/Session
-pam_tally2,Login/Session
-acct,Login/Session
-lastcomm,Login/Session
-gparted,Partitioning
-gnome-disks,Partitioning
-mkfs.ext2,Filesystem Creation
-mkfs.ext3,Filesystem Creation
-mke3fs,Filesystem Creation
-mkfs.msdos,Filesystem Creation
-mkdosfs,Filesystem Creation
-mkntfs,Filesystem Creation
-mkfs.reiserfs,Filesystem Creation
-mkreiserfs,Filesystem Creation
-mkfs.jfs,Filesystem Creation
-du,Filesystem Operations
-ncdu,Filesystem Operations
-xfs_growfs,Filesystem Operations
-sync,Filesystem Operations
-chroot,Filesystem Operations
-multipath,Filesystem Operations
-fsck.ext2,Filesystem Maintenance
-fsck.ext3,Filesystem Maintenance
-fsck.ext4,Filesystem Maintenance
-fsck.msdos,Filesystem Maintenance
-fsck.vfat,Filesystem Maintenance
-fsck.cramfs,Filesystem Maintenance
-xfs_check,Filesystem Maintenance
-xfs_info,Filesystem Maintenance
-xfsdump,Filesystem Maintenance
-xfsrestore,Filesystem Maintenance
-debugreiserfs,Filesystem Maintenance
-reiserfstune,Filesystem Maintenance
-smartctl,Filesystem Maintenance
-smartd,Filesystem Maintenance
-mkudffs,CD/DVD Filesystem
-udffsck,CD/DVD Filesystem
-wrudf,CD/DVD Filesystem
-cdrwtool,CD/DVD Filesystem
-rsync,Backup
-burp,Backup
-mtx,Backup
-cpio,Archive
-gzip,Archive
-gunzip,Archive
-pigz,Archive
-bzip2,Archive
-bunzip2,Archive
-xz,Archive
-unxz,Archive
-lzma,Archive
-unlzma,Archive
-7z,Archive
-rar,Archive
-unrar,Archive
-tar,Archive
-star,Archive
-zcat,Archive
-bzcat,Archive
-xzcat,Archive
-lzcat,Archive
-zgrep,Archive
-zless,Archive
-zmore,Archive
-man,Documentation
-apropos,Documentation
-info,Documentation
-help,Documentation
-tac,Text Processing
-tail,Text Processing
-less,Text Processing
-most,Text Processing
-wc,Text Processing
-pr,Text Processing
-fmt,Text Processing
-join,Text Processing
-paste,Text Processing
-split,Text Processing
-uniq,Text Processing
-sort,Text Processing
-shuf,Text Processing
-expand,Text Processing
-unexpand,Text Processing
-diff,Text Processing
-cmp,Text Processing
-cut,Text Processing
-tr,Text Processing
-awk,Text Processing
-grep,Text Processing
-egrep,Text Processing
-rpl,Text Processing
-strings,Text Processing
-tidy,Text Processing
-json_verify,Text Processing
-json_reformat,Text Processing
-antiword,Text Processing
-catdoc,Text Processing
-vi,Text Editors
-vim,Text Editors
-gvim,Text Editors
-vimdiff,Text Editors
-pico,Text Editors
-nano,Text Editors
-rnano,Text Editors
-emacs,Text Editors
-ed,Text Editors
-hexedit,Text Editors
-cp,File Management
-mv,File Management
-rm,File Management
-touch,File Management
-truncate,File Management
-fdupes,File Management
-tmpwatch,File Management
-od,File Management
-xxd,File Management
-unlink,File Management
-pv,File Management
-cd,Directory Management
-pwd,Directory Management
-ls,Directory Management
-vdir,Directory Management
-mkdir,Directory Management
-rmdir,Directory Management
-tree,Directory Management
-dirs,Directory Management
-pushd,Directory Management
-popd,Directory Management
-dirname,Directory Management
-realpath,Directory Management
-stat,File Operations
-shred,File Operations
-lsof,File Operations
-aide,File Operations
-tee,I/O Redirection
-sponge,I/O Redirection
-ps,Process Management
-pgrep,Process Management
-killall,Process Management
-pkill,Process Management
-skill,Process Management
-xkill,Process Management
-bg,Process Management
-fg,Process Management
-disown,Process Management
-nice,Process Management
-snice,Process Management
-nohup,Process Management
-htop,Resource Monitoring
-iotop,Resource Monitoring
-uptime,Resource Monitoring
-time,Resource Monitoring
-sysbench,Resource Monitoring
-stress-ng,Resource Monitoring
-chmod,File Permissions
-chown,File Permissions
-chgrp,File Permissions
-umask,File Permissions
-chacl,File Permissions
-ln,Links
-find,File Search
-slocate,File Search
-which,File Search
-type,File Search
-file,File Search
-set,Shell Variables
-env,Shell Variables
-unset,Shell Variables
-readonly,Shell Variables
-echo,Shell Variables
-printf,Shell Variables
-read,Shell Variables
-getopts,Shell Variables
-shopt,Shell Control
-exit,Shell Control
-source,Shell Control
-.,Shell Control
-bash,Shell Control
-watch,Command Execution
-timeout,Command Execution
-usleep,Command Execution
-yes,Command Execution
-xargs,Command Execution
-parallel,Command Execution
-ts,Command Execution
-test,Flow Control
-[,Flow Control
-expr,Flow Control
-TRUE,Flow Control
-FALSE,Flow Control
-if,Flow Control
-then,Flow Control
-else,Flow Control
-elif,Flow Control
-fi,Flow Control
-case,Flow Control
-esac,Flow Control
-for,Flow Control
-do,Flow Control
-done,Flow Control
-while,Flow Control
-until,Flow Control
-break,Flow Control
-continue,Flow Control
-mysql,SQL
-mysqldump,SQL
-mysql_upgrade,SQL
-mysqlcheck,SQL
-mysqladmin,SQL
-mysqlslap,SQL
-mysqltuner.pl,SQL
-mysqlreport,SQL
-mytop,SQL
-innotop,SQL
-psql,SQL
-createdb,SQL
-dropdb,SQL
-pg_dump,SQL
-postgresql-setup,SQL
-xdm,X Window
-gdm,X Window
-kdm,X Window
-xorgconfig,X Window
-xorgcfg,X Window
-xdpyinfo,X Window
-xwininfo,X Window
-switchdesk,X Window
-xprop,X Window
-mkfontdir,X Window
-xfs,X Window
-fc-cache,X Window
-passwd,User Management
-system-config-users,User Management
-addgroup,Group Management
-delgroup,Group Management
-chvt,Terminal
-vlock,Terminal
-away,Terminal
-tty,Terminal
-stty,Terminal
-clear,Terminal
-tmux,Terminal
-screen,Terminal
-cron,Scheduling
-crond,Scheduling
-crontab,Scheduling
-anacron,Scheduling
-atq,Scheduling
-atrm,Scheduling
-bc,Utilities
-dc,Utilities
-factor,Utilities
-units,Utilities
-banner,Utilities
-figlet,Utilities
-lolcat,Utilities
-fortune,Utilities
-on_ac_power,Utilities
-ipcalc,Utilities
-pwgen,Utilities
-pwqgen,Utilities
-haveged,Utilities
-aspell,Utilities
-cloc,Utilities
-gkrellm,Utilities
-iconv,Localization
-tzconfig,Localization
-date,Time
-chronyd,Time
-chronyc,Time
-mail,Email
-mailx,Email
-pine,Email
-mutt,Email
-sendmail,Email
-postmap,Email
-postalias,Email
-postqueue,Email
-postsuper,Email
-exim4,Email
-procmail,Email
-formail,Email
-ifconfig,Network Configuration
-dhclient,Network Configuration
-pump,Network Configuration
-hostname,Network Configuration
-arp,Network Configuration
-route,Network Configuration
-teamdctl,Network Configuration
-teamnl,Network Configuration
-ping,Network Tools
-fping,Network Tools
-traceroute,Network Tools
-mtr,Network Tools
-dig,Network Tools
-host,Network Tools
-nslookup,Network Tools
-whois,Network Tools
-redir,Network Tools
-telnet,Network Tools
-wget,Network Tools
-curl,Network Tools
-hping3,Network Tools
-bing,Network Tools
-netstat,Network Monitoring
-nmap,Network Monitoring
-arp-scan,Network Monitoring
-tcpdump,Network Monitoring
-wireshark,Network Monitoring
-ngrep,Network Monitoring
-dhcpdump,Network Monitoring
-nload,Network Monitoring
-iptraf,Network Monitoring
-iptraf-ng,Network Monitoring
-netserver,Network Monitoring
-netperf,Network Monitoring
-iperf,Network Monitoring
-netcat,Network Monitoring
-nc,Network Monitoring
-iwgetid,Wireless
-hcidump,Wireless
-firewall-config,Firewall
-firewall-offline-cmd,Firewall
-ssh,SSH
-autossh,SSH
-sshpass,SSH
-pssh,SSH
-ssh-keygen,SSH
-ssh-keyscan,SSH
-ssh-agent,SSH
-ssh-add,SSH
-ssh-copy-id,SSH
-scp,SSH
-sftp,SSH
-sshd,SSH
-scponly,SSH
-openssl,Security
-CA.pl,Security
-gpg,Security
-openvpn,Security
-stunnel,Security
-md5sum,Security
-sha1sum,Security
-sha256sum,Security
-sha512sum,Security
-shasum,Security
-sealert,SELinux
-audit2why,SELinux
-ausearch,SELinux
-semodule,SELinux
-udevmonitor,Device Management
-lsdev,Device Management
-gnome-device-manager,Device Management
-uname,Kernel
-depmod,Kernel
-ld.so,Libraries
-apt-cdrom,Package Management - Debian
-dselect,Package Management - Debian
-synaptic,Package Management - Debian
-yumdownloader,Package Management - Red Hat
-yum-complete-transaction,Package Management - Red Hat
-repoquery,Package Management - Red Hat
-pirut,Package Management - Red Hat
-httpd,Web Servers
-apache2,Web Servers
-htpasswd,Web Servers
-htdigest,Web Servers
-ndc,DNS
-rndc,DNS
-dnssec-keygen,DNS
-dnssec-signzone,DNS
-rndc-confgen,DNS
-dnswalk,DNS
-sendmail,Email Servers
-makemap,Email Servers
-newaliases,Email Servers
-mailq,Email Servers
-hoststat,Email Servers
-purgestat,Email Servers
-mailstats,Email Servers
-praliases,Email Servers
-postmap,Email Servers
-postalias,Email Servers
-postqueue,Email Servers
-postsuper,Email Servers
-exim,Email Servers
-mysqld,Database Servers
-mysqld_safe,Database Servers
-mysql_install_db,Database Servers
-mysql_secure_installation,Database Servers
-postgres,Database Servers
-pg_ctl,Database Servers
-smbd,File Sharing
-nmbd,File Sharing
-testparm,File Sharing
-nmblookup,File Sharing
-net,File Sharing
-smbstatus,File Sharing
-smbmount,File Sharing
-nfsd,File Sharing
-mountd,File Sharing
-exportfs,File Sharing
-showmount,File Sharing
-vsftpd,FTP Servers
-pure-ftpd,FTP Servers
-pure-ftpwho,FTP Servers
-ftp,FTP Servers
-cupsd,Print Servers
-cupsctl,Print Servers
-cupsenable,Print Servers
-cupsdisable,Print Servers
-cupsaccept,Print Servers
-cupsreject,Print Servers
-lpadmin,Print Servers
-lpstat,Print Servers
-lp,Print Servers
-lpr,Print Servers
-lpq,Print Servers
-lprm,Print Servers
-lpc,Print Servers
-a2ps,Print Servers
-ps2pdf,Print Servers
-mpage,Print Servers
-gv,Print Servers
-dhcpd,DHCP
-dhcrelay,DHCP
-slapd,Directory Services
-slapcat,Directory Services
-slapadd,Directory Services
-slapindex,Directory Services
-slaptest,Directory Services
-ldapsearch,Directory Services
-ldapmodify,Directory Services
-ldapadd,Directory Services
-ldapdelete,Directory Services
-ldappasswd,Directory Services
-sssd,Directory Services
-authselect,Directory Services
-targetcli,Storage
-iscsiadm,Storage
-libvirtd,Virtualization
-virt-what,Virtualization
-kvm,Virtualization
-tomcat,Web Application Servers
-nagios,Monitoring
-zabbix,Monitoring
-mrtg,Monitoring
-cacti,Monitoring
-munin,Monitoring
-centreon,Monitoring
-netdata,Monitoring
-facter,Configuration Management
-chef,Configuration Management
-update-grub,System Recovery
-grub,System Recovery
-grub2-set-default,System Recovery
-grub2-editenv,System Recovery
-initramfs,System Recovery
-sdparm,Hardware Control
-hddtemp,Hardware Control
-pacmd,Audio/Video
-rec,Audio/Video
-biosdecode,System Information
-vpddecode,System Information
-tuned,Performance Tuning
-irqbalance,Performance Tuning
-autoexpect,Automation
-dbus-monitor,Miscellaneous
-inotify-tools,Miscellaneous
-aide,Miscellaneous
-chkrootkit,Miscellaneous
-oscap,Miscellaneous
-
-
-
-
-
-fancontrol,Hardware Control
+command
+pvck
+pvchange
+pvresize
+pvmove
+vgck
+vgextend
+vgreduce
+vgmerge
+vgsplit
+vgimport
+vgexport
+lvscan
+lvchange
+dmsetup
+lvmsar
+lvmdiskscan
+lvmconfig
+mkinitrd
+mkinitramfs
+freeramdisk
+rcservice
+runlevel
+fail2ban
+pam_tally2
+acct
+gparted
+gnome-disks
+mkfs.ext2
+mkfs.ext3
+mke3fs
+mkfs.msdos
+mkdosfs
+mkntfs
+mkfs.reiserfs
+mkreiserfs
+mkfs.jfs
+xfs_growfs
+multipath
+fsck.ext2
+fsck.ext3
+fsck.ext4
+fsck.msdos
+fsck.vfat
+fsck.cramfs
+xfs_check
+xfs_info
+xfsdump
+xfsrestore
+debugreiserfs
+reiserfstune
+smartd
+mkudffs
+udffsck
+wrudf
+cdrwtool
+burp
+mtx
+bunzip2
+star
+bzcat
+rpl
+json_verify
+json_reformat
+antiword
+catdoc
+gvim
+pico
+rnano
+hexedit
+tmpwatch
+aide
+skill
+snice
+stress-ng
+chacl
+slocate
+.
+usleep
+mysql_upgrade
+mysqladmin
+mysqlslap
+mysqltuner.pl
+mysqlreport
+innotop
+dropdb
+postgresql-setup
+xdm
+gdm
+kdm
+xorgconfig
+xorgcfg
+xdpyinfo
+switchdesk
+mkfontdir
+xfs
+system-config-users
+addgroup
+delgroup
+chvt
+vlock
+away
+crond
+anacron
+on_ac_power
+pwqgen
+haveged
+gkrellm
+tzconfig
+chronyd
+pine
+postmap
+postalias
+postqueue
+postsuper
+exim4
+procmail
+formail
+pump
+teamdctl
+teamnl
+redir
+bing
+wireshark
+dhcpdump
+iptraf
+iptraf-ng
+iwgetid
+hcidump
+firewall-config
+firewall-offline-cmd
+scponly
+CA.pl
+stunnel
+sealert
+audit2why
+ausearch
+semodule
+udevmonitor
+lsdev
+gnome-device-manager
+depmod
+ld.so
+apt-cdrom
+dselect
+synaptic
+yumdownloader
+yum-complete-transaction
+repoquery
+pirut
+httpd
+apache2
+htdigest
+ndc
+rndc
+dnssec-keygen
+dnssec-signzone
+rndc-confgen
+dnswalk
+makemap
+newaliases
+mailq
+hoststat
+purgestat
+mailstats
+praliases
+postmap
+postalias
+postqueue
+postsuper
+exim
+mysqld_safe
+mysql_install_db
+postgres
+smbd
+nmbd
+testparm
+smbstatus
+smbmount
+nfsd
+mountd
+exportfs
+vsftpd
+pure-ftpd
+pure-ftpwho
+lpc
+a2ps
+ps2pdf
+mpage
+gv
+dhcpd
+dhcrelay
+slapd
+slapcat
+slapadd
+slapindex
+slaptest
+ldapmodify
+ldapadd
+ldapdelete
+ldappasswd
+sssd
+authselect
+iscsid
+targetcli
+iscsiadm
+libvirtd
+virt-what
+kvm
+tomcat
+nagios
+zabbix
+mrtg
+cacti
+munin
+centreon
+netdata
+facter
+chef
+update-grub
+grub
+grub2-set-default
+grub2-editenv
+initramfs
+sdparm
+fancontrol
+hddtemp
+pacmd
+rec
+biosdecode
+vpddecode
+tuned
+irqbalance
+autoexpect
+dbus-monitor
+inotify-tools
+aide
+chkrootkit
+oscap
