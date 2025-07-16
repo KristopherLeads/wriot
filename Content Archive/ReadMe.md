@@ -34,3 +34,12 @@ Please feel free to email me via my [website](https://www.kristophermsandoval.co
 * [Logging API Calls in Moesif from Logstash Using the HTTP Output Plugin](https://www.moesif.com/blog/api-monetization/api-strategy/Logging-API-Calls-in-Moesif-from-Logstash-Using-the-HTTP-Output-Plugin/)
 * [REST API with Node.js](https://www.moesif.com/blog/api-monetization/api-strategy/REST-API-with-node-.-js/)
 * [Implementing API Analytics with Python](https://www.moesif.com/blog/api-monetization/api-strategy/Implementing-API-analytics-with-Python/)
+
+### Genzio/DeployApps.dev
+* [An Open Conversation About Open Source](https://deployapps.dev/blog/an-open-conversation-about-open-source/)
+* [DeployApps and Automation](https://deployapps.dev/blog/deployapps-and-automation/)
+* [Auto Scaling - DeployApps Handles Growth](https://deployapps.dev/blog/effortless-scaling-genezio-handles-growth/)
+* [Communication Breakdown – Why Backend to Frontend Communication Matters](https://deployapps.dev/blog/communication-breakdown-why-backend-to-frontend-communication-matters/)
+* [What Serverless Is - And Why You Should Care](https://deployapps.dev/blog/what-serverless-is/)
+* [Business Logic in the Backend - The Why and How](https://deployapps.dev/blog/business-logic-in-the-backend-the-why-and-how/)
+* [What is Type Safety?](https://deployapps.dev/blog/what-is-type-safety/)
