@@ -45,8 +45,8 @@ Please feel free to email me via my [website](https://www.kristophermsandoval.co
 * [What is Type Safety?](https://deployapps.dev/blog/what-is-type-safety/)
 
 ### Cloudsploit (Archived)
-* The Role of Security-Specific Applications in the Cloud
-* The Importance of Continual Auditing in Cloud Environments (500wds)
+* [The Role of Security-Specific Applications in the Cloud](https://github.com/KristopherLeads/wriot/blob/main/Content%20Archive/The%20Role%20of%20Security-Specific%20Applications%20in%20the%20Cloud.md)
+* The Importance of Continual Auditing in Cloud Environments
 * Security in Isolation - Why a Holistic Approach is Best
 * Security - Who Owns the Problem?
 * Securing SaaS Deployment in the Cloud
