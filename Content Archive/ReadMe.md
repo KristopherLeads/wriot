@@ -15,8 +15,8 @@ Please feel free to email me via my [website](https://www.kristophermsandoval.co
 * [There's No AI Without APIs](https://www.firetail.ai/blog/theres-no-ai-without-apis)
 ### Speedscale
 * [API Staging Is Not Production – But Speedscale Makes It Close](https://speedscale.com/blog/api-staging-is-not-production-but-speedscale-makes-it-close/)
-* [From Guesswork to Guarantees: How Traffic Replay Improves Release Confidence(https://speedscale.com/blog/from-guesswork-to-guarantees-how-traffic-replay-improves-release-confidence/)
-* [How to Mock OpenAI’s APIs with Speedscale’s ProxyMock(https://speedscale.com/blog/how-to-mock-openais-apis-with-speedscales-proxymock/)
+* [From Guesswork to Guarantees: How Traffic Replay Improves Release Confidence](https://speedscale.com/blog/from-guesswork-to-guarantees-how-traffic-replay-improves-release-confidence/)
+* [How to Mock OpenAI’s APIs with Speedscale’s ProxyMock](https://speedscale.com/blog/how-to-mock-openais-apis-with-speedscales-proxymock/)
 ### Moesif
 * [Self-Serve and Sales-Led API Monetization - Unlocking Product Led Growth](https://www.moesif.com/blog/api-monetization/api-strategy/Self-Serve-and-Sales-Led-API-Monetization-Unlocking-Product-Led-Growth/)
 * [How to Enforce API Usage Policies](https://www.moesif.com/blog/api-monetization/api-strategy/How-to-Enforce-API-Usage-Policies/)
