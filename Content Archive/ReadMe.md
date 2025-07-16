@@ -43,3 +43,16 @@ Please feel free to email me via my [website](https://www.kristophermsandoval.co
 * [What Serverless Is - And Why You Should Care](https://deployapps.dev/blog/what-serverless-is/)
 * [Business Logic in the Backend - The Why and How](https://deployapps.dev/blog/business-logic-in-the-backend-the-why-and-how/)
 * [What is Type Safety?](https://deployapps.dev/blog/what-is-type-safety/)
+
+### Cloudsploit (Archived)
+* The Role of Security-Specific Applications in the Cloud
+* The Importance of Continual Auditing in Cloud Environments (500wds)
+* Security in Isolation - Why a Holistic Approach is Best
+* Security - Who Owns the Problem?
+* Securing SaaS Deployment in the Cloud
+* Introducing CloudSploit Compliance Scanning
+* Compliance in the Cloud - Security for Non-Engineers
+* Common Security Misconfigurations - Open Groups, Rate Unlimited, and More
+* Cloudsploit and Best Practices - How Security Affects Development and Product
+* AWS re:Invent - Industry Trends and Security in 2018
+* The Role of Security-Specific Applications in the Cloud
