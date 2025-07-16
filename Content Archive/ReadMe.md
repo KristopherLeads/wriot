@@ -65,5 +65,8 @@ Please feel free to email me via my [website](https://www.kristophermsandoval.co
 * [Online LiveCast: API Security 101](https://nordicapis.com/events/online-livecast-api-security-101-nordic-apis/)
 * [Surviving the Digital World War – Security in the Modern Era](https://nordicapis.com/sessions/surviving-digital-world-war-security-modern-era/)
 
-### Guest Speaking
+### Guest Spots and Features
 * [Deep Dive Broadway 22 - Making Magic Happen](https://broadwaypodcastnetwork.com/podcasts/deep-dive-broadway/22-broadwaycon-making-magic-happen/23)
+* [Nice Games Club - "75% sure." Runtimes, SDKs, and APIs; Mobile Games; Difficulty](https://podcasts.musixmatch.com/podcast/nice-games-club-a-gamedev-podcast-01j26z1d9ah1q5pgpb12jtxpdh/episode/75-sure-runtimes-sdks-and-apis-mobile-games-difficulty-01j406mk10ayj3mhaqnd6j52dt)
+* [same stuff, different day](https://samestuffdifferentday.net/2024/10/28/Interesting-links-of-the-week-2024-44/)
+* [KarateLabs Community News](https://github.com/karatelabs/karate/wiki/Community-News)
