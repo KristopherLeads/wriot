@@ -64,3 +64,6 @@ Please feel free to email me via my [website](https://www.kristophermsandoval.co
 * [Whose Hallucination is it Anyway? A Framework for Hallucinations](https://www.kristophermsandoval.com/events/2025-the-big-cornish-tech-showcase)
 * [Online LiveCast: API Security 101](https://nordicapis.com/events/online-livecast-api-security-101-nordic-apis/)
 * [Surviving the Digital World War – Security in the Modern Era](https://nordicapis.com/sessions/surviving-digital-world-war-security-modern-era/)
+
+### Guest Speaking
+* [Deep Dive Broadway 22 - Making Magic Happen](https://broadwaypodcastnetwork.com/podcasts/deep-dive-broadway/22-broadwaycon-making-magic-happen/23)
