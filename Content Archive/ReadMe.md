@@ -56,3 +56,11 @@ Please feel free to email me via my [website](https://www.kristophermsandoval.co
 * Cloudsploit and Best Practices - How Security Affects Development and Product
 * AWS re:Invent - Industry Trends and Security in 2018
 * The Role of Security-Specific Applications in the Cloud
+
+### Sessions
+* [Neural Nets and Nation-States – Data Sovereignty in the Age of Artificial Intelligence](https://nordicapis.com/sessions/neural-nets-and-nation-states-data-sovereignty-in-the-age-of-artificial-intelligence/)
+* [The Compression of Tech Maturity in the Age of AI](https://nordicapis.com/sessions/the-compression-of-tech-maturity-in-the-age-of-ai/)
+* [DDD North 2024 - Whose Product is it Anyway?](https://www.dddnorth.co.uk/sessions)
+* [Whose Hallucination is it Anyway? A Framework for Hallucinations](https://www.kristophermsandoval.com/events/2025-the-big-cornish-tech-showcase)
+* [Online LiveCast: API Security 101](https://nordicapis.com/events/online-livecast-api-security-101-nordic-apis/)
+* [Surviving the Digital World War – Security in the Modern Era](https://nordicapis.com/sessions/surviving-digital-world-war-security-modern-era/)
