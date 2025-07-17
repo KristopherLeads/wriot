@@ -6,6 +6,8 @@ As this archive grows, I imagine I'll need a more significant frontend to naviga
 Please feel free to email me via my [website](https://www.kristophermsandoval.com/scheduling) if you'd like to give some feedback!
 
 ## Direct Bylines
+### Nordic APIs
+* [Nordic APIs Landing Page](https://nordicapis.com/author/sandovaleffect/)
 ### FireTail.io
 * [APIs at the Edge of Modern Cloud Apps](https://www.firetail.ai/blog/apis-at-the-edge-of-modern-cloud-apps)
 * [APIs and Competitive Advantage in the Travel Sector](https://www.firetail.ai/blog/competitive-edge-travel)
