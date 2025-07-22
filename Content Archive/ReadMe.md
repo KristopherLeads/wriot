@@ -16,9 +16,26 @@ Please feel free to email me via my [website](https://www.kristophermsandoval.co
 * [Connecting the Dots: API Security for Building Modern Internet Services](https://www.firetail.ai/blog/connecting-the-dots-api-security-for-building-modern-internet-services)
 * [There's No AI Without APIs](https://www.firetail.ai/blog/theres-no-ai-without-apis)
 ### Speedscale
+#### Core Blog
 * [API Staging Is Not Production – But Speedscale Makes It Close](https://speedscale.com/blog/api-staging-is-not-production-but-speedscale-makes-it-close/)
 * [From Guesswork to Guarantees: How Traffic Replay Improves Release Confidence](https://speedscale.com/blog/from-guesswork-to-guarantees-how-traffic-replay-improves-release-confidence/)
+* [The Silent API Killer: Data Coupling in Your Tests](https://speedscale.com/blog/the-silent-api-killer-data-coupling-in-your-tests/)
+* [API Security: Validating Auth and Access with Traffic Simulation Starts with Behavior](https://speedscale.com/blog/api-security-validating-auth-and-access-with-traffic-simulation-starts-with-behavior/)
+#### Proxymock
+* [Get Ahead of the Game – LLM Compliance and Mocking](https://proxymock.io/blog/get-ahead-of-the-game-llm-compliance-and-mocking/)
+* [5 Tips for Agent-to-Model Mocking](https://proxymock.io/blog/5-tips-for-agent-to-model-mocking/)
+* [Catch Prompt Misfires Before They Burn Trust in LLM](https://proxymock.io/blog/catch-prompt-misfires-before-they-burn-trust-in-llm/)
+* [Take Control of Your AI Routing: Mocking Claude, Gemini, and GPT-4](https://proxymock.io/blog/take-control-of-your-ai-routing-mocking-claude-gemini-and-gpt-4/)
+* [From External Chaos to Business Value: The Power of AI Mocking](https://proxymock.io/blog/from-external-chaos-to-business-value-the-power-of-ai-mocking/)
+* [The Hidden Cost of API Security Misconfigurations – And How to Catch Them Early](https://proxymock.io/blog/the-hidden-cost-of-api-security-misconfigurations-and-how-to-catch-them-early/)
+* [Train on Gold, Not Garbage – Making Powerful AI Models from Golden Data](https://proxymock.io/blog/train-on-gold-not-garbage-making-powerful-ai-models-from-golden-data/)
+* [API Test Automation for Zero Trust Model](https://proxymock.io/blog/api-test-automation-for-zero-trust-model/)
+* [From Specs to Reality: True API Testing](https://proxymock.io/blog/from-specs-to-reality-true-api-testing/)
+* [Unlock Cheaper & Faster AI Testing: Mocking Claude and MCP](https://proxymock.io/blog/unlock-cheaper-faster-ai-testing-mocking-claude-and-mcp/)
+* [Using Proxymock with GCP Services](https://proxymock.io/blog/using-proxymock-with-gcp-services/)
+* [Using Proxymock with AWS Services](https://proxymock.io/blog/using-proxymock-with-aws-services/)
 * [How to Mock OpenAI’s APIs with Speedscale’s ProxyMock](https://speedscale.com/blog/how-to-mock-openais-apis-with-speedscales-proxymock/)
+* [How to Mock AI APIs Using Proxymock](https://proxymock.io/blog/how-to-mock-ai-apis-using-proxymock-2/0
 ### Moesif
 * [Self-Serve and Sales-Led API Monetization - Unlocking Product Led Growth](https://www.moesif.com/blog/api-monetization/api-strategy/Self-Serve-and-Sales-Led-API-Monetization-Unlocking-Product-Led-Growth/)
 * [How to Enforce API Usage Policies](https://www.moesif.com/blog/api-monetization/api-strategy/How-to-Enforce-API-Usage-Policies/)
