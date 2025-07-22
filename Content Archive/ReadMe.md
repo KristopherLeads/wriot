@@ -35,7 +35,7 @@ Please feel free to email me via my [website](https://www.kristophermsandoval.co
 * [Using Proxymock with GCP Services](https://proxymock.io/blog/using-proxymock-with-gcp-services/)
 * [Using Proxymock with AWS Services](https://proxymock.io/blog/using-proxymock-with-aws-services/)
 * [How to Mock OpenAI’s APIs with Speedscale’s ProxyMock](https://speedscale.com/blog/how-to-mock-openais-apis-with-speedscales-proxymock/)
-* [How to Mock AI APIs Using Proxymock](https://proxymock.io/blog/how-to-mock-ai-apis-using-proxymock-2/0
+* [How to Mock AI APIs Using Proxymock](https://proxymock.io/blog/how-to-mock-ai-apis-using-proxymock-2/)
 ### Moesif
 * [Self-Serve and Sales-Led API Monetization - Unlocking Product Led Growth](https://www.moesif.com/blog/api-monetization/api-strategy/Self-Serve-and-Sales-Led-API-Monetization-Unlocking-Product-Led-Growth/)
 * [How to Enforce API Usage Policies](https://www.moesif.com/blog/api-monetization/api-strategy/How-to-Enforce-API-Usage-Policies/)
