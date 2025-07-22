@@ -3,7 +3,7 @@ As a writer and developer, I have created content across the internet on a wide 
 
 As this archive grows, I imagine I'll need a more significant frontend to navigate the contents - for now, I'm simply going to have everything stored by publishing location within sub-folders according to date. I am starting by importing content with two distinctions, direct bylines and indirect bylines - e.g. content that is published under my name, and then content that is published under other names and organizational titles.
 
-Please feel free to email me via my [website](https://www.kristophermsandoval.com/scheduling) if you'd like to give some feedback!
+Please feel free to email me via my [website](https://www.kristophermsandoval.com) if you'd like to give some feedback!
 
 ## Direct Bylines
 ### Nordic APIs
